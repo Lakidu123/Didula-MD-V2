@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID === undefined ? 'PRABATH-MD~RCkU3bST#AJ96PhVqKBetH_O6Zb8O3UWyFJO_AX_4DecPdlQ_XRI' : process.env.SESSION_ID,
+    SESSION_ID: process.env.SESSION_ID === undefined ? 'PRABATH-MD~gzFhRSAZ#6CGxasdytjuUjkHeF73fhJ1Bp9aZn-n0pduY5_mEGwc' : process.env.SESSION_ID,
     PREFIX: process.env.PREFIX || '.',
     FOOTER: process.env.FOOTER || "*✦𝐃𝐢𝐝𝐮𝐥𝐚 𝐌𝐃 𝐕𝟐✦*",
     ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/za6ytm.jpg",
@@ -17,12 +17,12 @@ HEART_REACT: process.env.HEART_REACT || 'true',
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ? "true" : process.env.AUTO_READ_STATUS,
     MODE: process.env.MODE === undefined ? "public" : process.env.MODE,
     ANTI_BAD: process.env.ANTI_BAD === undefined ? "false" : process.env.ANTI_BAD,
-    ANTI_LINK: process.env.ANTI_LINK === undefined ? "false" : process.env.ANTI_LINK,
-    ANTI_CALL: process.env.ANTI_CALL === undefined ? "false" : process.env.ANTI_CALL,
+    ANTI_LINK: process.env.ANTI_LINK === undefined ? "true" : process.env.ANTI_LINK,
+    ANTI_CALL: process.env.ANTI_CALL === undefined ? "true" : process.env.ANTI_CALL,
     ANTI_DELETE: process.env.ANTI_DELETE === undefined ? "false" : process.env.ANTI_DELETE,
     ANTI_BOT: process.env.ANTI_BOT === undefined ? "false" : process.env.ANTI_BOT,
     READ_CMD: process.env.READ_CMD === undefined ? "false" : process.env.READ_CMD,
     RECORDING: process.env.RECORDING === undefined ? "true" : process.env.RECORDING,
     AI_CHAT: process.env.AI_CHAT === undefined ? "false" : process.env.AI_CHAT,
-    AUTO_SONG_SENDER: process.env.AUTO_SONG_SENDER === undefined ? "false" : process.env.AUTO_SONG_SENDER
+    AUTO_SONG_SENDER: process.env.AUTO_SONG_SENDER === undefined ? "true" : process.env.AUTO_SONG_SENDER
 };
